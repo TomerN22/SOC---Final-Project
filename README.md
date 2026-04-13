@@ -36,7 +36,7 @@ SOC final project focused on security monitoring, log analysis and incident dete
 
 במהלך הפרויקט נעשה שימוש בכלים ובטכנולוגיות הבאות:
 
-- Splunk (SIEM)  
+- Splunk (SIEM Platform)  
 - Sysmon  
 - Windows Event Logs  
 
