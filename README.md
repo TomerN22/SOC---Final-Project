@@ -97,4 +97,5 @@ SOC final project focused on security monitoring, log analysis and incident dete
 ## Author
 
 Tomer N.
+
 SOC Analyst Trainee
