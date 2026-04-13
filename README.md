@@ -4,69 +4,97 @@ SOC final project focused on security monitoring, log analysis and incident dete
 # SOC Final Project
 
 ## Project Overview
-This repository contains my final SOC (Security Operations Center) project.  
-The project demonstrates the investigation process of a security event using log analysis and SIEM tools.
-
 <div dir="rtl">
 
-## תיאור הפרויקט
-זהו פרויקט גמר במסגרת מקצה SOC.  
-בפרויקט בוצע ניתוח לוגים וזיהוי פעילות חשודה במטרה לדמות עבודת אנליסט SOC בסביבת עבודה אמיתית.
+מאגר זה מכיל את פרויקט הגמר שלי במסגרת מקצה SOC (Security Operations Center).
 
-החקירה התבססה על ניתוח נתונים ממקורות שונים במערכת במטרה לזהות אינדיקציות לפעילות חריגה או זדונית.
+מטרת הפרויקט הייתה לדמות תהליך חקירה של אירוע אבטחה על ידי ניתוח לוגים ממקורות שונים, זיהוי פעילות חריגה, והסקת מסקנות בהתאם לממצאים שהתגלו במהלך החקירה.
 
-## מטרות הפרויקט
-- תרגול עבודת אנליסט SOC  
-- ניתוח לוגים ממערכות שונות  
-- זיהוי פעילות חשודה או זדונית  
-- חקירת אירוע אבטחה והסקת מסקנות  
+החקירה בוצעה באמצעות כלי SIEM ובמיוחד באמצעות מערכת Splunk, תוך שימוש בלוגים ממערכות שונות במערכת ההפעלה.
 
-## כלים וטכנולוגיות
-בפרויקט נעשה שימוש בכלים הבאים:
+</div>
+
+---
+
+## Project Goals
+<div dir="rtl">
+
+מטרות הפרויקט היו:
+
+- תרגול עבודת אנליסט SOC בסביבת חקירה אמיתית  
+- ניתוח לוגים ממקורות שונים במערכת  
+- זיהוי פעילות חשודה או חריגה  
+- חקירת אירוע אבטחה והבנת השתלשלות האירועים  
+- הסקת מסקנות על בסיס הממצאים שהתגלו במהלך החקירה  
+
+</div>
+
+---
+
+## Tools and Technologies
+<div dir="rtl">
+
+במהלך הפרויקט נעשה שימוש בכלים ובטכנולוגיות הבאות:
 
 - Splunk (SIEM)  
 - Sysmon  
 - Windows Event Logs  
 
-## תהליך החקירה
-במהלך הפרויקט בוצעו השלבים הבאים:
+כלים אלו שימשו לצורך איסוף, ניתוח וקורלציה של נתונים ממקורות שונים במערכת.
 
-1. איסוף וניתוח לוגים ממקורות שונים  
-2. זיהוי פעילות חריגה במערכת  
-3. שימוש במערכת SIEM לצורך חיפוש וחקירת אירועים  
-4. ניתוח הממצאים והסקת מסקנות  
+</div>
+
+---
+
+## Investigation Process
+<div dir="rtl">
+
+תהליך החקירה כלל מספר שלבים עיקריים:
+
+1. איסוף לוגים ממקורות שונים במערכת  
+2. ניתוח האירועים באמצעות מערכת Splunk  
+3. זיהוי פעילות חריגה או חשודה בלוגים  
+4. בדיקת תהליכים והרצות מערכת שאינן שגרתיות  
+5. הצלבת מידע בין מקורות לוגים שונים  
+6. ניתוח הממצאים והסקת מסקנות לגבי האירוע הנחקר  
 
 </div>
 
 ---
 
 ## Investigation Summary
+<div dir="rtl">
 
-During the investigation, multiple log sources were analyzed in order to identify suspicious activity within the system.
+במהלך החקירה נותחו מספר מקורות לוגים במטרה לזהות פעילות חשודה במערכת.
 
-The analysis included reviewing Windows Event Logs and Sysmon logs through the Splunk SIEM platform.
+הניתוח כלל סקירה של Windows Event Logs ושל Sysmon Logs באמצעות מערכת ה-SIEM Splunk.
 
-The investigation focused on identifying indicators such as:
+במהלך החקירה נבדקו מספר אינדיקציות אפשריות לפעילות חריגה, ביניהן:
 
-- Suspicious process execution  
-- Unusual system activity  
-- Potential Indicators of Compromise (IOC)
+- הרצת תהליכים חשודים  
+- פעילות מערכת לא שגרתית  
+- אינדיקציות אפשריות לפגיעה במערכת (IOC – Indicators of Compromise)
 
-Events from different log sources were correlated in order to determine whether the observed behavior represented legitimate activity or a potential security incident.
+האירועים ממקורות הלוגים השונים נותחו והושוו ביניהם במטרה להבין האם מדובר בפעילות לגיטימית או באירוע אבטחה פוטנציאלי.
 
-The full investigation process and findings are documented in the project file included in this repository.
+תהליך החקירה המלא והממצאים מפורטים במסמך הפרויקט המצורף במאגר זה.
+
+</div>
 
 ---
 
 ## Project Document
+<div dir="rtl">
 
-The full SOC investigation report is available in this repository:
+המסמך המלא של פרויקט החקירה נמצא במאגר זה:
 
 **Tomer Naverh - SOC - CSPP98.docx**
+
+</div>
 
 ---
 
 ## Author
 
-**Tomer N.**  
+Tomer N.
 SOC Analyst Trainee
